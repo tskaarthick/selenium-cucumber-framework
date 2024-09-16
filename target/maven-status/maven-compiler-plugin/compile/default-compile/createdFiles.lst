@@ -1,0 +1,6 @@
+com/flooid/engine/WebDriverFactory.class
+com/flooid/utils/PageOperation.class
+com/flooid/engine/Configuration.class
+com/flooid/engine/TestContext.class
+com/flooid/utils/Screenshot.class
+com/flooid/utils/PageOperation$PageOperationException.class

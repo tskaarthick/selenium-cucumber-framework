@@ -1,0 +1,5 @@
+com/flooid/runner/TestRunner.class
+com/flooid/pages/ContactPage.class
+com/flooid/pages/NewPage.class
+com/flooid/stepDefinitions/ContactFormSteps.class
+com/flooid/stepDefinitions/GlobalHooks.class

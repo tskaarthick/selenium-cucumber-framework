@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Validate Email Address in Contact Details
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.613 s - in Validate Email Address in Contact Details

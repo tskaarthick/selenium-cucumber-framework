@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.649" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Valid Email Address in Contact Details" name="Contact form accepts valid email address" time="4.817">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I enter a valid email address "user@example.com".......................passed
+Then I should not see an error message "Please enter a valid email address!".passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Email Address in Contact Details" name="Contact form rejects invalid email addresses - #1.1" time="3.946">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I enter an invalid email address "invalid-email".......................passed
+Then I should see an error message "Please enter a valid email address!"....passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Email Address in Contact Details" name="Contact form rejects invalid email addresses - #1.2" time="3.551">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I enter an invalid email address "user@"...............................passed
+Then I should see an error message "Please enter a valid email address!"....passed
+]]></system-out>
+</testcase>
+<testcase classname="Valid Email Address in Contact Details" name="Email address field is required" time="3.556">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I leave the email address field empty..................................passed
+Then I should see an error message "This is a required field."..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Email Address in Contact Details" name="Contact form rejects invalid email addresses - #1.3" time="3.581">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I enter an invalid email address "@example.com"........................passed
+Then I should see an error message "Please enter a valid email address!"....passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Email Address in Contact Details" name="Contact form rejects invalid email addresses - #1.4" time="3.725">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I enter an invalid email address "user@example"........................passed
+Then I should see an error message "Please enter a valid email address!"....passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Email Address in Contact Details" name="Contact form rejects invalid email addresses - #1.5" time="3.745">
+<system-out><![CDATA[
+Given I am on the Flooid contact page.......................................passed
+When I enter an invalid email address "user@example..com"...................passed
+Then I should see an error message "Please enter a valid email address!"....passed
+]]></system-out>
+</testcase>
+</testsuite>
